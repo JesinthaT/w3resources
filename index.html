@@ -19,70 +19,60 @@
         </div>
 
 
-            <div class="box">
-                <div class="color con">Sun</div>
-                <div class=" con">Mon</div>
-                <div class=" con">Tue</div>
-                <div class=" con">Wed</div>
-                <div class=" con">Thu</div>
-                <div class=" con">Fri</div>
-                <div class="color con">Sat</div>
-                <div class=" con1 con" onclick="display(this)">1</div>
-                <div class="con" onclick="display(this)">2</div>
-                <div class="con" onclick="display(this)">3</div>
-                <div class="con" onclick="display(this)">4</div>
-                <div class="con" onclick="display(this)">5</div>
-                <div class="con" onclick="display(this)">6</div>
-                <div class="con" onclick="display(this)">7</div>
-                <div class="con" onclick="display(this)">8</div>
-                <div class="con" onclick="display(this)">9</div>
-                <div class="con" onclick="display(this)">10</div>
-                <div class="con" onclick="display(this)">11</div>
-                <div class="con" onclick="display(this)">12</div>
-                <div class="con" onclick="display(this)">13</div>
-                <div class="con" onclick="display(this)">14</div>
-                <div class="con" onclick="display(this)">15</div>
-                <div class="con" onclick="display(this)">16</div>
-                <div class="con" onclick="display(this)">17</div>
-                <div class="con" onclick="display(this)">18</div>
-                <div class="con" onclick="display(this)">19</div>
-                <div class="con" onclick="display(this)">20</div>
-                <div class="con" onclick="display(this)">21</div>
-                <div class="con" onclick="display(this)">22</div>
-                <div class="con" onclick="display(this)">23</div>
-                <div class="con" onclick="display(this)">24</div>
-                <div class="con" onclick="display(this)">25</div>
-                <div class="con" onclick="display(this)">26</div>
-                <div class="con" onclick="display(this)">27</div>
-                <div class="con" onclick="display(this)">28</div>
-                <div class="con dir1" onclick="display(this)">29</div>
-                <div class="con dir2" onclick="display(this)">30</div>
-                <div class="con dir3" onclick="display(this)">31</div>
+        <div class="box">
+           
+            <div class="color con">Sat</div>
+            <div class=" con1 con" onclick="display(this)">1</div>
+            <div class="con" onclick="display(this)">2</div>
+            <div class="con sun1" onclick="display(this)">3</div>
+            <div class="con" onclick="display(this)">4</div>
+            <div class="con" onclick="display(this)">5</div>
+            <div class="con" onclick="display(this)">6</div>
+            <div class="con" onclick="display(this)">7</div>
+            <div class="con" onclick="display(this)">8</div>
+            <div class="con" onclick="display(this)">9</div>
+            <div class="con sun1" onclick="display(this)">10</div>
+            <div class="con" onclick="display(this)">11</div>
+            <div class="con" onclick="display(this)">12</div>
+            <div class="con" onclick="display(this)">13</div>
+            <div class="con" onclick="display(this)">14</div>
+            <div class="con" onclick="display(this)">15</div>
+            <div class="con" onclick="display(this)">16</div>
+            <div class="con sun1" onclick="display(this)">17</div>
+            <div class="con" onclick="display(this)">18</div>
+            <div class="con" onclick="display(this)">19</div>
+            <div class="con" onclick="display(this)">20</div>
+            <div class="con" onclick="display(this)">21</div>
+            <div class="con" onclick="display(this)">22</div>
+            <div class="con" onclick="display(this)">23</div>
+            <div class="con sun1" onclick="display(this)">24</div>
+            <div class="con" onclick="display(this)">25</div>
+            <div class="con" onclick="display(this)">26</div>
+            <div class="con" onclick="display(this)">27</div>
+            <div class="con" onclick="display(this)">28</div>
+            <div class="con dir1" onclick="display(this)">29</div>
+            <div class="con dir2" onclick="display(this)">30</div>
+            <div class="con dir3 sun1" onclick="display(this)">31</div>
 
-            </div>
+        </div>
+        <!-- <p class="demo">cbdhcbjhdcbjcjd</p> -->
     </div>
 
     <script>
 
         function display(a) {
-            var array = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
-            var b = a.innerHTML;
-            a.style.border = ".5px solid gray";
-            a.style.backgroundColor = "#cbbdbf";
+             a.style.border = ".5px solid gray";
+            a.style.backgroundColor = "#cbbdbf";    
         }
-
-
-
-
-
 
         var days = ["January 2021", "February 2021", "March 2021", "April 2021", "May 2021", "Jun 2021", "July 2021", "August 2021", "September 2021", "October 2021", "November 2021", "December 2021"];
         document.querySelector(".head").innerHTML = days[0];
         var i = 0;
         
-        function clickMe() {
+         function clickMe() {
              i--;
-             if(i===1){
+           
+             if(i==1){
                document.querySelector(".dir1").style.display="none";
                document.querySelector(".dir2").style.display="none";
                document.querySelector(".dir3").style.display="none";
@@ -99,6 +89,7 @@
                 i = 11;
                 document.querySelector(".head").innerHTML = days[i];
             }
+            
             document.querySelector(".head").innerHTML = days[i];
           
         }
@@ -123,13 +114,14 @@
             }
              document.querySelector(".head").innerHTML = days[i];
          }
-
+        
 
         var points = ["style1", "style2","style2" ,"style3", "style4", "style5", "style6", "style7","style8","style1","style2","style8"];
 
         document.querySelector(".con1").classList.add(points[0]);
         var n = 0;
         function month() {
+            
             document.querySelector(".con1").classList.remove(points[n]);
             n--;
             if (n <= 0) {
