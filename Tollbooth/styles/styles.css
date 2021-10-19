@@ -1,0 +1,90 @@
+.main{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(241, 198, 142);
+    position: relative;
+    top: 500px;
+    left: -950px;
+    /* margin-top: 0;
+    margin-left: 0; */
+    display: flex;
+}
+.main1{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(241, 198, 142);
+    position: relative;
+    top: 5px;
+    left: 950px;
+}
+
+.vehicle {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    background-color: rgb(235, 88, 113);
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+.st{
+    left:60px ;
+}
+.newDIV {
+    top: -250px;
+    transition-duration: 3s;
+}
+.new1DIV {
+    top: -520px;
+    transition-delay: 1s;
+    transition-duration: 3s;
+}
+.new2DIV{
+    top:0px;
+}
+.new3DIV{
+    top:300px;
+    transition-duration: 3s;
+}
+.new4DIV{
+    top: 550px;
+    transition-duration: 3s;
+}
+.tolgate{
+    width: 200px;
+    height: 100px;
+    background-color: cornflowerblue;
+    position: relative;
+    top:290px;
+    left: -840px;
+}
+.tolgate1{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    position: relative;
+    left: -110px;
+    top: 250px;
+}
+.second{
+    left: -110px;
+    top: 250px;
+}
+.vehicle1{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    background-color: rgb(235, 88, 113);
+    position: absolute;
+    bottom: 570px;
+    right: 0;
+}
+.demoDIV{
+    top:-520px;
+    transition-duration: 3s;
+}
+.demo1DIV{
+    bottom:0px;
+    transition-delay: 1s;
+    transition-duration: 3s;
+}

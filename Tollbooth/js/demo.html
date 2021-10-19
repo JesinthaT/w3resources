@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var ct=new Date().getTime();
+        var obj={
+            key1:"value1",
+            key2:"value2",
+            passing:{
+                key4:{time:6476487487,amount:50},
+                key5:{time:7847889898,amount:70}
+            }
+        }
+        // obj.passing.key3.time=ct;
+        console.log(obj.passing.key4.time);
+    </script>
+</body>
+</html>
