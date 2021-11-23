@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.overall{
+    width: 100vw;
+    height: 100vh;
+    background-color: #eae9eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whole-box{
+    width: 200px;
+    height: 200px;
+    /* background-color: pink; */
+    display: flex;
+    position: relative;
+    animation-name: rotate;
+    animation-duration: 10s;
+    transform: rotateZ(0deg);
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+   
+}
+.black-box{
+    width: 100px;
+    height: 200px;
+    background-color: black;
+    border-top-left-radius:100px ;
+    border-bottom-left-radius:100px ;
+}
+.white-box{
+    width: 100px;
+    height: 200px;
+    background-color: white;
+    border-top-right-radius:100px ;
+    border-bottom-right-radius:100px ;
+}
+.inner-1{
+    width: 100px;
+    height: 100px;
+    /* background-color: pink; */
+    position: absolute;
+    top:0px;
+    left: 50px;
+    display: flex;
+    animation-name: rotate;
+    animation-duration: 3s;
+    transform: rotateZ(0deg);
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+}
+.second{
+    top: 100px;
+    left: 50px;
+}
+@keyframes rotate{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+.inner-1 > div{
+    width: 50px;
+    height: 100px;
+}
+.black{
+    background-color: black;
+    border-top-left-radius:100px ;
+    border-bottom-left-radius:100px ;
+    position: relative;
+
+}
+.white{
+    background-color: white;
+    border-top-right-radius:100px ;
+    border-bottom-right-radius:100px ;
+}
+.dot{
+    width: 50px;
+    height: 50px;
+    border-radius:50% ;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 25px;
+}
+.dot1{
+    width: 50px;
+    height: 50px;
+    border-radius:50% ;
+    background-color: white;
+    position: absolute;
+    top : 50px;
+    left: 25px; 
+}
+.inner-dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: green;
+    transform: translate(120%,120%);
+}
+.short1{
+    background-color: white;
+}.short2{
+    background-color: black;
+}
