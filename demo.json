@@ -7,6 +7,6 @@
         "partner": "0",
         "all": "1",
         "soid": [1234,1234,8656],
-        "soid_status":"true"
+        "soid_status":true
     }
 }
