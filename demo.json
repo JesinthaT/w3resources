@@ -1,12 +1,28 @@
 {
     "id":{
+         "Description":"Nothing special. Just a Trial Config",
+        "Developer_ZUID":"658727188",
+        "Developer_Mail":"jesintha.g@zohocorp.com",
         "PM": 1,
         "QA": 2,
         "UserEducation": 0,
         "Internal": 1,
         "Partners": 0,
         "All": 1,
-        "SOIDs": [1234,1234,8656],
+        "SOIDs": [],
         "SOID_Status":true
+    },
+    "trial":{
+        "Description":"Nothing special. Just a Trial Config",
+        "Developer_ZUID":"658727188",
+        "Internal":1,
+        "SOID_Status":true,
+        "Developer_Mail":"aravind.g@zohocorp.com",
+        "UserEducation":1,
+        "SOIDs":[1234,1234,8656],
+        "Partners":1,
+        "PM":1,
+        "All":1,
+        "QA":1
     }
 }
