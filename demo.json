@@ -1,12 +1,12 @@
 {
     "id":{
-        "pm_no": "1",
-        "qa_no": "2",
-        "ue_no": "0",
-        "internal": "1",
-        "partner": "0",
-        "all": "1",
-        "soid": [1234,1234,8656],
-        "soid_status":true
+        "PM": 1,
+        "QA": 2,
+        "UserEducation": 0,
+        "Internal": 1,
+        "Partners": 0,
+        "All": 1,
+        "SOIDs": [1234,1234,8656],
+        "SOID_Status":true
     }
 }
