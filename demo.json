@@ -10,7 +10,7 @@
         "Partners": 0,
         "All": 1,
         "SOIDs": [],
-        "SOID_Status":true
+        "SOID_Status":false
     },
     "trial":{
         "Description":"Nothing special. Just a Trial Config",
