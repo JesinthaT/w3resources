@@ -15,14 +15,14 @@
     "trial":{
         "Description":"Nothing special. Just a Trial Config",
         "Developer_ZUID":"658727188",
-        "Internal":1,
+        "Internal":0,
         "SOID_Status":true,
         "Developer_Mail":"aravind.g@zohocorp.com",
-        "UserEducation":1,
-        "SOIDs":[1234,1234,8656],
-        "Partners":1,
-        "PM":1,
-        "All":1,
-        "QA":1
+        "UserEducation":0,
+        "SOIDs":[],
+        "Partners":0,
+        "PM":0,
+        "All":0,
+        "QA":0
     }
 }
