@@ -1,17 +1,4 @@
 {
-    "id":{
-         "Description":"Nothing special. Just a Trial Config",
-        "Developer_ZUID":"658727188",
-        "Developer_Mail":"jesintha.g@zohocorp.com",
-        "PM": 1,
-        "QA": 2,
-        "UserEducation": 0,
-        "Internal": 1,
-        "Partners": 0,
-        "All": 1,
-        "SOIDs": [],
-        "SOID_Status":false
-    },
     "trial":{
         "Description":"Nothing special. Just a Trial Config",
         "Developer_ZUID":"658727188",
