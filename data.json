@@ -1,0 +1,84 @@
+{
+    "data": {
+        "reference_id": "1",
+        "owner": {
+            "image_key": "0_10000000003001",
+            "name": "cbot",
+            "is_bot": true,
+            "id": "10000000003001"
+        },
+        "ended_by": {
+            "name": "cbot",
+            "type": "bot",
+            "id": "10000000003001"
+        },
+        "chat_id": "QP_1256254619340425190_115611092",
+        "attender": {
+            "image_key": "0_10000000003001",
+            "name": "cbot",
+            "is_bot": true,
+            "id": "10000000003001"
+        },
+        "type": "chat",
+        "participants": [
+            {
+                "image_key": "0_10000000003001",
+                "name": "cbot",
+                "is_bot": true,
+                "id": "10000000003001"
+            }
+        ],
+        "unread_chats": false,
+        "status_code": 1,
+        "chat_status": {
+            "state_key": "end",
+            "status_code": 2,
+            "state": 4,
+            "id": "22",
+            "label": "Attended Online",
+            "status_key": "closed"
+        },
+        "question": "hello",
+        "addinfo": {
+            "chat_end_by": 3,
+            "previous_attender": "10000000003001",
+            "conversation_operation_flag": 1,
+            "reopened_question": "hi",
+            "visitor_status_while_end": "online",
+            "channel": 6,
+            "visit_countinuation": "1",
+            "bot_visitor_chat": "b-Facebookmessenger_6000000014033_4438285016289906",
+            "channel_bot_name": "CSEZ",
+            "visitor_channel_supported_operation": 5
+        },
+        "notes": false,
+        "end_time": "1636951860447",
+        "attended_time": "1636525793274",
+        "start_time": "1636525792681",
+        "id": "10000000002007",
+        "last_modified_time": "1636951860447",
+        "status": "Attended Online",
+        "app_id": "10000000000058",
+        "department": {
+            "name": "channelbotintegration",
+            "id": "10000000000020"
+        },
+        "reopen": true,
+        "visitor": {
+            "uuid": "b-Facebookmessenger_6000000014033_4438285016289906",
+            "name": "sap ",
+            "id": "10000000002005",
+            "channel_details": {
+                "channel": "facebookmessenger",
+                "source": "CSEZ"
+            },
+            "supported_operations": [
+                "file_share"
+            ],
+            "email": "sap@gmail.com",
+            "type": "contact",
+            "status_while_end": "online",
+            "channel_name": "facebookmessenger"
+        }
+    }
+}
