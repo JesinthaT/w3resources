@@ -1,84 +1,114 @@
 {
+    "url": "/adminapi/v1/bots/14000000000080",
+    "object": "bot",
     "data": {
-        "reference_id": "1",
-        "owner": {
-            "image_key": "0_10000000003001",
-            "name": "cbot",
-            "is_bot": true,
-            "id": "10000000003001"
+        "modifier": {
+            "name": "sandhya",
+            "id": "14000000000006"
         },
-        "ended_by": {
-            "name": "cbot",
-            "type": "bot",
-            "id": "10000000003001"
-        },
-        "chat_id": "QP_1256254619340425190_115611092",
-        "attender": {
-            "image_key": "0_10000000003001",
-            "name": "cbot",
-            "is_bot": true,
-            "id": "10000000003001"
-        },
-        "type": "chat",
-        "participants": [
-            {
-                "image_key": "0_10000000003001",
-                "name": "cbot",
-                "is_bot": true,
-                "id": "10000000003001"
-            }
-        ],
-        "unread_chats": false,
-        "status_code": 1,
-        "chat_status": {
-            "state_key": "end",
-            "status_code": 2,
-            "state": 4,
-            "id": "22",
-            "label": "Attended Online",
-            "status_key": "closed"
-        },
-        "question": "hello",
-        "addinfo": {
-            "chat_end_by": 3,
-            "previous_attender": "10000000003001",
-            "conversation_operation_flag": 1,
-            "reopened_question": "hi",
-            "visitor_status_while_end": "online",
-            "channel": 6,
-            "visit_countinuation": "1",
-            "bot_visitor_chat": "b-Facebookmessenger_6000000014033_4438285016289906",
-            "channel_bot_name": "CSEZ",
-            "visitor_channel_supported_operation": 5
-        },
-        "notes": false,
-        "end_time": "1636951860447",
-        "attended_time": "1636525793274",
-        "start_time": "1636525792681",
-        "id": "10000000002007",
-        "last_modified_time": "1636951860447",
-        "status": "Attended Online",
-        "app_id": "10000000000058",
-        "department": {
-            "name": "channelbotintegration",
-            "id": "10000000000020"
-        },
-        "reopen": true,
-        "visitor": {
-            "uuid": "b-Facebookmessenger_6000000014033_4438285016289906",
-            "name": "sap ",
-            "id": "10000000002005",
-            "channel_details": {
-                "channel": "facebookmessenger",
-                "source": "CSEZ"
+        "connector": {
+            "owner": {
+                "email_id": "sandhya.v+3@zohotest.com",
+                "name": "sandhya",
+                "id": "14000000000006"
             },
-            "supported_operations": [
-                "file_share"
-            ],
-            "email": "sap@gmail.com",
-            "type": "contact",
-            "status_while_end": "online",
-            "channel_name": "facebookmessenger"
-        }
+            "status": "enabled",
+            "type": "flow"
+        },
+        "typing_delay": 2,
+        "modified_time": "1655978080883",
+        "image_fkey": "",
+        "working_hours": [
+            "during_business_hours",
+            "during_non_business_hours"
+        ],
+        "permissions": "15",
+        "enabled": true,
+        "creator": {
+            "name": "sandhya",
+            "id": "14000000000006"
+        },
+        "source_type": "developed",
+        "trigger_events": [],
+        "deleted": false,
+        "selected_audience_set": "1",
+        "triggering_events": {
+            "type": "none"
+        },
+        "audience_sets": {
+            "1": {
+                "audience": {
+                    "type": 3,
+                    "event": "0",
+                    "value": [
+                        [
+                            "36",
+                            "1",
+                            "3",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    ]
+                },
+                "title": "All Visitor"
+            }
+        },
+        "id": "14000000000080",
+        "description": "",
+        "app_id": "14000000000058",
+        "department_ids": [],
+        "chat_inactivity_rules": {
+            "enabled": false,
+            "rules": {
+                "1": {
+                    "delay_mins": 1,
+                    "message": {
+                        "default": {
+                            "replies": [
+                                {
+                                    "text": "Is there anything else I might help you with today"
+                                }
+                            ]
+                        }
+                    },
+                    "action": "reply"
+                },
+                "2": {
+                    "delay_mins": 5,
+                    "message": {
+                        "default": {
+                            "replies": [
+                                {
+                                    "text": "Thanks for contacting us! If you have any other queries, please feel free to contact us at any time."
+                                }
+                            ]
+                        }
+                    },
+                    "action": "end"
+                }
+            }
+        },
+        "handoff_enabled": true,
+        "all_departments": true,
+        "published": false,
+        "created_time": "1655978026229",
+        "stats": {
+            "last_used_time_in_millis": "0",
+            "total_chat_duration_in_millis": "0",
+            "number_of_transfered_chats": "0",
+            "number_of_chats": "0",
+            "number_of_resolved_chats": "0"
+        },
+        "image_url": "",
+        "handoff_configs": {
+            "default": {
+                "text": "Connect with a human?",
+                "ack": "Yes"
+            }
+        },
+        "name": "kk"
     }
 }
