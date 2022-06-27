@@ -19,8 +19,14 @@
         "modified_time": "1655978080883",
         "image_fkey": "",
         "working_hours": [
-            "during_business_hours",
-            "during_non_business_hours"
+            {
+            "key":value
+            },
+            {
+            "key1":value
+            "key2":value
+
+            }
         ],
         "permissions": "15",
         "enabled": true,
